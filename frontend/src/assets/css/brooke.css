@@ -185,3 +185,9 @@ button:hover, .nav-bar:hover, input[type="submit"]:hover {
 button:focus, input[type="submit"]:focus {
   outline: none;
 }
+
+.box-text {
+  text-align: center;
+  font-size: 22px;
+  color:rgb(0, 81, 255);
+}

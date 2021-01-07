@@ -1,9 +1,10 @@
 import React from 'react';
 
 const NoteItem = (props) => (
-  <li>
-    <h2>Title</h2>
-    <p>Caption...</p>
+  
+  <li onClick={props.onNoteClick}>
+    <h2>{props.note.title}</h2>
+    <p>{props.note.body.substring(0,30)}...</p>
   </li>
 );
 
